@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Sajjad - Video Editor Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0d0d0d;
+            color: #ffffff;
+        }
+        header {
+            background: #111;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #00e6ff;
+        }
+        nav a {
+            color: #fff;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #00e6ff;
+        }
+        .hero {
+            height: 100vh;
+            background: url('/mnt/data/uh hd.jpg') no-repeat center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+        .hero h2 {
+            font-size: 48px;
+            text-shadow: 0 0 10px #000;
+        }
+        .hero p {
+            font-size: 20px;
+            max-width: 600px;
+            margin-top: 10px;
+        }
+        .btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #00e6ff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #000;
+        }
+        .section {
+            padding: 80px 50px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .service-box {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+            border: 1px solid #333;
+        }
+        .service-box:hover {
+            transform: translateY(-5px);
+            border-color: #00e6ff;
+        }
+        footer {
+            background: #111;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #777;
+        }
+        iframe {
+            border: none;
+            border-radius: 5px;
+        }
+        header img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Logo -->
+    <a href="#hero">
+        <img src="uh hd.jpg" alt="Muhammad Sajjad Logo">
+    </a>
+    
+    <h1>Muhammad Sajjad</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="hero" class="hero">
+    <h2>Professional Video Editor</h2>
+    <p>High‑quality, cinematic, and engaging video edits for brands, creators, and businesses. Specializing in YouTube edits, ads, reels, and cinematic visuals.</p>
+    <a href="#portfolio"><button class="btn">View Portfolio</button></a>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am Muhammad Sajjad, a professional video editor with experience in creating clean, engaging, and visually appealing content. I specialize in high‑impact social media content, YouTube video editing, commercial ads, cinematic color grading, and seamless transitions. My goal is to bring your footage to life with creativity and precision.</p>
+</section>
+
+<section id="services" class="section">
+    <h2>Services</h2>
+    <div class="services">
+        <div class="service-box">
+            <h3>YouTube Video Editing</h3>
+            <p>Jump cuts, captions, b‑roll, sound effects, animations, and more.</p>
+        </div>
+        <div class="service-box">
+            <h3>Social Media Reels</h3>
+            <p>Short‑form, fast‑paced edits perfect for TikTok, Instagram, and Facebook.</p>
+        </div>
+        <div class="service-box">
+            <h3>Commercial Editing</h3>
+            <p>Ad campaigns, brand videos, and promotional content with cinematic finishes.</p>
+        </div>
+        <div class="service-box">
+            <h3>Color Grading</h3>
+            <p>Professional cinematic color correction and grading.</p>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="section">
+    <h2>Portfolio</h2>
+    <div class="services">
+        <!-- Video 1 -->
+        <div class="service-box" style="padding:0; overflow:hidden; text-align:center;">
+            <iframe src="https://drive.google.com/file/d/1glhg4AVdOSD_-ci8NJyacE3x5_Pzxiws/preview" width="100%" height="220" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <p style="color:#00e6ff; padding:10px 0; font-weight:bold;">Video 1</p>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="service-box" style="padding:0; overflow:hidden; text-align:center;">
+            <iframe src="https://drive.google.com/file/d/18znBz280-BTHUlGVMc8eQ5h2bl2OvaP7/preview" width="100%" height="220" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <p style="color:#00e6ff; padding:10px 0; font-weight:bold;">Video 2</p>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="service-box" style="padding:0; overflow:hidden; text-align:center;">
+            <iframe src="https://drive.google.com/file/d/1lkUbig8DuXjO1us98NfKSItcIKbroKBd/preview" width="100%" height="220" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <p style="color:#00e6ff; padding:10px 0; font-weight:bold;">Video 3</p>
+        </div>
+
+        <!-- Video 4 -->
+        <div class="service-box" style="padding:0; overflow:hidden; text-align:center;">
+            <iframe src="https://drive.google.com/file/d/1CMwYzEc6CooFsODpT-a0Zn2M_BHEEQ0L/preview" width="100%" height="220" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <p style="color:#00e6ff; padding:10px 0; font-weight:bold;">Video 4</p>
+        </div>
+    </div>
+    <p style="margin-top:20px; color:#ccc; font-size:14px;">All videos above are hosted on Google Drive.</p>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Feel free to reach out for custom projects or collaboration.</p>
+    <p>Email: <strong>ushakeel154@gmail.com</strong></p>
+</section>
+
+<footer>
+    © 2025 Muhammad Sajjad | Video Editing Portfolio
+</footer>
+
+</body>
+</html>
